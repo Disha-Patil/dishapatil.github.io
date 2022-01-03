@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-baseurl: "/index.html" # the subpath of your site, e.g. /blog
+baseurl: "dishapatil.in" # the subpath of your site, e.g. /blog
 title: disha's space
 description: Bookmark this to keep an eye on my project updates!
