@@ -59,6 +59,18 @@ width: 175%;
   border-bottom: 10px solid black;
   position: absolute;
   }
+
+hr.line14 { 
+    border: 0; 
+    height: 6px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+  
+  
+
 /*     
 
 .appearingBox  {
