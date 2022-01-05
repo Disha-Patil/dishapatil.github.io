@@ -37,6 +37,34 @@
 /* .hide {
     display: none;
   } */
+
+
+/* 
+html{
+  height:100%;
+}
+body
+{ height:100%;
+  background-color: #fcfcfc; 
+
+}*/
+div {
+  position: relative;
+  text-align: center;
+  height:45vh;
+}
+
+span {
+  top: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+
+.fifty {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
       
 .appear div {
     color: red;
@@ -61,7 +89,9 @@ width: 175%;
   }
 
 hr.line14 { 
+    /* position: absolute; */
     border: 0; 
+    top:50%;
     height: 6px; 
     background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
     background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
