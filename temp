@@ -144,3 +144,27 @@ body
   border-radius: 3px;
 }
 
+div {
+  position: relative;
+  text-align: center;
+}
+
+span {
+  left: 50%;
+  position: absolute;
+}
+
+.zero {
+  top: 0%;
+  transform: translate(-50%, 0%);
+}
+
+.fifty {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hundred {
+  top: 100%;
+  transform: translate(-50%, -100%);
+}
