@@ -17,7 +17,7 @@ section.content img { -webkit-backface-visibility: hidden; outline: 1px solid tr
 @media (max-width: 550px) {
     section.content img { max-width: 150px; }
 }
-section.content { padding-top: 3em; overflow:hidden;margin: 10px 0px 0px 80px;}
+section.content { overflow:hidden;margin: 20px 0px 0px 60px;}
 
 section.home_button {position: fixed; margin:2px 0px 0px 10px;}
 section.header {  font-weight: lighter; 
