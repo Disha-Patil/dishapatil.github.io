@@ -18,7 +18,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  width: 600px;
+  width: 100%; /*600px;*/
 }
 
 ul {
