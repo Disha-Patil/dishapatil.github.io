@@ -17,7 +17,9 @@ section.content img { -webkit-backface-visibility: hidden; outline: 1px solid tr
 @media (max-width: 550px) {
     section.content img { max-width: 150px; }
 }
-section.content { padding-top: 3em; overflow:hidden;margin: 20px 20px 20px 20px;}
+section.content { padding-top: 3em; overflow:hidden;margin: 10px 0px 0px 80px;}
+
+section.home_button {position: fixed; margin:2px 0px 0px 10px;}
 section.header {  font-weight: lighter; 
   font-size: 0.8em; position: fixed;
   padding-top: 2%;
@@ -43,6 +45,14 @@ span{
   color: #100f0f; font-family: Arial, sans-serif; font-size: 15px;
 }
 a { text-decoration: none; }
+.page-link { 
+  font-size: 15px;
+  font-weight: 300;
+  margin:0;
+  color: #100f0f;
+  text-decoration: none;
+}
+
 .page-link-footer { 
   color:#100f0f;
   text-decoration: none;
@@ -53,4 +63,17 @@ a { text-decoration: none; }
   color: #fff;
   text-decoration: none;
   box-shadow: inset 0 -1px 0 hsla(0, 1%, 21%, 0.4);
+}
+
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
