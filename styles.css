@@ -18,7 +18,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  width: 100%; /*600px;*/
+  width: 800px;
 }
 
 ul {
@@ -36,7 +36,7 @@ a { position: relative;
   display: block;
   cursor: pointer; }
 
-a:before, span:after {
+a:before, a:after {
   content: '';
   position: absolute;
   width: 0%;
