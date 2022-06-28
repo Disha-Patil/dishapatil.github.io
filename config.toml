@@ -1,4 +1,4 @@
-baseURL = "https://dishapatil.in/"
+baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "dishapatil"
